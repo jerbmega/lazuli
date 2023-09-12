@@ -58,3 +58,4 @@ modules:
       - signing.sh
       - delete_residuals.sh
       - enable_vrr.sh
+      - dconf-update-service.sh

@@ -57,3 +57,4 @@ modules:
     scripts:
       - signing.sh
       - delete_residuals.sh
+      - dconf-update-service.sh
