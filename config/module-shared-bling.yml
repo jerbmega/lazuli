@@ -1,0 +1,8 @@
+type: bling
+install:
+  - fonts
+  - justfiles
+  - nix-installer
+  - ublue-os-wallpapers
+  - ublue-update
+  #- dconf-update-service

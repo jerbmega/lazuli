@@ -6,36 +6,16 @@ image-version: 38
 
 modules:
   - from-file: module-shared-rpm-ostree.yml
-
-  - type: files
-    files:
-      - usr: /usr
+  - from-file: module-shared-files.yml
+  - from-file: module-shared-bling.yml
+  - from-file: module-shared-yafti.yml
+  - from-file: module-shared-systemd.yml
+  - from-file: module-shared-scripts.yml
 
   - type: rpm-ostree
-    repos: https://copr.fedorainfracloud.org/coprs/kylegospo/gnome-vrr/repo/fedora-%OS_VERSION%/kylegospo-gnome-vrr-fedora-%OS_VERSION%.repo
-
-  - type: bling
-    install:
-      - fonts
-      - justfiles
-      - nix-installer
-      - ublue-os-wallpapers
-      - ublue-update
-      #- dconf-update-service
-
-  - type: yafti             
-    custom-flatpaks: # this section is optional
-    - PulseAudio Volume Contro: org.pulseaudio.pavucontrol
-
-  - type: systemd
-    system:
-      enable:
-        - dconf-update.service
-        - tailscaled.service
-
+    repos: 
+    - https://copr.fedorainfracloud.org/coprs/kylegospo/gnome-vrr/repo/fedora-%OS_VERSION%/kylegospo-gnome-vrr-fedora-%OS_VERSION%.repo
 
   - type: script
     scripts:
-      - signing.sh
-      - delete_residuals.sh
       - enable_vrr.sh
