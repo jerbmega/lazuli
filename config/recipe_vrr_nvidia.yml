@@ -11,6 +11,9 @@ modules:
     files:
       - usr: /usr
 
+  - type: rpm-ostree
+    repos: https://copr.fedorainfracloud.org/coprs/kylegospo/gnome-vrr/repo/fedora-%OS_VERSION%/kylegospo-gnome-vrr-fedora-%OS_VERSION%.repo
+
   - type: bling
     install:
       - fonts
@@ -37,4 +40,3 @@ modules:
       - signing.sh
       - delete_residuals.sh
       - enable_vrr.sh
-      - dconf-update-service.sh

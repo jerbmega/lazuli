@@ -11,6 +11,15 @@ modules:
     files:
       - usr: /usr
 
+  - type: bling
+    install:
+      - fonts
+      - justfiles
+      - nix-installer
+      - ublue-os-wallpapers
+      - ublue-update
+      #- dconf-update-service
+
   - type: yafti             
     custom-flatpaks: # this section is optional
     - PulseAudio Volume Contro: org.pulseaudio.pavucontrol
@@ -26,4 +35,3 @@ modules:
     scripts:
       - signing.sh
       - delete_residuals.sh
-      - dconf-update-service.sh
