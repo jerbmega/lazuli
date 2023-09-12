@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Assemble Boxkit
+Exec=/usr/bin/just --unstable assemble
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

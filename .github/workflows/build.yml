@@ -40,6 +40,9 @@ jobs:
         # Don't add module configuration files, you will get errors.
         recipe:
           - recipe.yml
+          - recipe_vrr.yml
+          - recipe_nvidia.yml
+          - recipe_vrr_nvidia.yml
 # !!!
 
     steps:
