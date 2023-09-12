@@ -1,0 +1,12 @@
+name: lazuli-vrr-nvidia
+description: A blingy, opinionated GNOME with an i3 feel
+
+base-image: ghcr.io/ublue-os/silverblue-nvidia
+image-version: 38
+
+modules:
+  - from-file: shared.yml
+
+  - type: script
+    scripts:
+      - enable_vrr.sh
