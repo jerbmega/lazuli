@@ -1,5 +1,0 @@
-type: systemd
-system:
-  enable:
-    - dconf-update.service
-    - tailscaled.service

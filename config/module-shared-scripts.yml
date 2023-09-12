@@ -2,3 +2,4 @@ type: script
 scripts:
   - signing.sh
   - delete_residuals.sh
+  - enable_services.sh
