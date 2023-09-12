@@ -11,8 +11,8 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/offlinehacker/xtruder-rpms/repo/fedora-%FEDORA_VERSION%/offlinehacker-xtruder-rpms-fedora-%FEDORA_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/infiniteloop/HeadsetControl/repo/fedora-%FEDORA_VERSION%/infiniteloop-HeadsetControl-fedora-%FEDORA_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/offlinehacker/xtruder-rpms/repo/fedora-%OS_VERSION%/offlinehacker-xtruder-rpms-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/infiniteloop/HeadsetControl/repo/fedora-%OS_VERSION%/infiniteloop-HeadsetControl-fedora-%OS_VERSION%.repo
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 
     install:
