@@ -1,0 +1,3 @@
+type: yafti             
+custom-flatpaks:
+- PulseAudio Volume Contro: org.pulseaudio.pavucontrol
