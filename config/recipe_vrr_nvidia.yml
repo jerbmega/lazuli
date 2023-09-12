@@ -39,7 +39,7 @@ modules:
       - nix-installer
       - ublue-os-wallpapers
       - ublue-update
-      - dconf-update-service
+      #- dconf-update-service
 
 
   - type: yafti             
@@ -58,3 +58,4 @@ modules:
       - signing.sh
       - delete_residuals.sh
       - enable_vrr.sh
+      - dconf-update-service.sh
