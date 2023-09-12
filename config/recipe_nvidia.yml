@@ -5,42 +5,11 @@ base-image: ghcr.io/ublue-os/silverblue-nvidia
 image-version: 38
 
 modules:
+  - from-file: module-shared-rpm-ostree.yml
+
   - type: files
     files:
       - usr: /usr
-
-  - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/offlinehacker/xtruder-rpms/repo/fedora-%OS_VERSION%/offlinehacker-xtruder-rpms-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/infiniteloop/HeadsetControl/repo/fedora-%OS_VERSION%/infiniteloop-HeadsetControl-fedora-%OS_VERSION%.repo
-      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-
-    install:
-      - apcupsd
-      - ckb-next
-      - gnome-shell-extension-pop-shell
-      - gnome-shell-extension-gsconnect
-      - gnome-shell-extension-blur-my-shell
-      - gnome-shell-extension-appindicator
-      - gnome-shell-extension-just-perfection
-      - gnome-shell-extension-system-monitor-applet
-      - gnome-shell-extension-space-bar
-      - python3-pip
-      - tailscale
-
-    remove:
-      - firefox
-      - firefox-langpacks
-
-  - type: bling
-    install:
-      - fonts
-      - justfiles
-      - nix-installer
-      - ublue-os-wallpapers
-      - ublue-update
-      #- dconf-update-service
-
 
   - type: yafti             
     custom-flatpaks: # this section is optional
