@@ -5,4 +5,4 @@ install:
   - nix-installer
   - ublue-os-wallpapers
   - ublue-update
-  - dconf-update-service
+  #- dconf-update-service
