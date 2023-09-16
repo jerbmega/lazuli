@@ -1,10 +1,12 @@
 ublue_variants:
   - label: jerbmega/lazuli
     ks: /kickstart/ublue-os.ks
-    subvariants:
-      - label: standard image
-      - label: NVIDIA drivers included (untested!)
-        suffix: -nvidia
     flavors:
       - label: lazuli
+        info: Lazuli
+      - label: lazuli-nvidia
+        info: Lazuli (NVIDIA drivers)
       - label: lazuli-vrr
+        info: Lazuli (VRR)
+      - label: labuli-vrr-nvidia
+        info: Lazuli (VRR, NVIDIA drivers)
