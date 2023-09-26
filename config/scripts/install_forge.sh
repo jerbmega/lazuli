@@ -13,19 +13,19 @@ LOCATION=$(curl -s https://api.github.com/repos/forge-ext/forge/releases/latest 
 unzip forge.zip
 cd $(ls -d */|head -n 1)
 
-mkdir -p temp
-cp metadata.json temp
-cp -r resources temp
-cp -r schemas temp
-cp -r config temp
-cp -r lib temp
-cp *.js temp
-cp *.css temp
-cp LICENSE temp
-mkdir -p temp/locale
+mkdir -pv temp
+cp -v metadata.json temp
+cp -rv resources temp
+cp -rv schemas temp
+cp -rv config temp
+cp -rv lib temp
+cp -v *.js temp
+cp -v *.css temp
+cp -v LICENSE temp
+mkdir -pv temp/locale
 
-mkdir -p "/usr/share/gnome-shell/extensions/forge@jmmaranan.com"
-cp -r temp/* "/usr/share/gnome-shell/extensions/forge@jmmaranan.com"
+mkdir -pv "/usr/share/gnome-shell/extensions/forge@jmmaranan.com"
+cp -rv temp/* "/usr/share/gnome-shell/extensions/forge@jmmaranan.com"
 
 cd ../..
-yes | rm -rf forge
+yes | rm -rfv forge
