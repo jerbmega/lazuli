@@ -10,6 +10,7 @@ LOCATION=$(curl -s https://api.github.com/repos/forge-ext/forge/releases/latest 
 | sed 's/,$//'       \
 | sed 's/"//g' )     \
 ; curl -L -o forge.zip $LOCATION
+unzip forge.zip
 cd $(ls -d */|head -n 1)
 
 mkdir -p temp
