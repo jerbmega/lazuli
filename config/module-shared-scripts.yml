@@ -3,4 +3,5 @@ scripts:
   - signing.sh
   - delete_residuals.sh
   - enable_services.sh
+  - install_forge.sh
   - remove_gnome_extensions_app.sh
