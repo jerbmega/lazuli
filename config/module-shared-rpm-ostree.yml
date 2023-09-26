@@ -20,4 +20,3 @@ install:
 remove:
   - firefox
   - firefox-langpacks
-  - gnome-extensions-app
