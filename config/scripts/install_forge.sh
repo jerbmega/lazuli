@@ -28,5 +28,4 @@ mkdir -pv "/usr/share/gnome-shell/extensions/forge@jmmaranan.com"
 cp -rv temp/* "/usr/share/gnome-shell/extensions/forge@jmmaranan.com"
 
 cd ../..
-yes | rm -rfv forge
-echo "Done!"
+rm -rfv forge
