@@ -29,3 +29,4 @@ cp -rv temp/* "/usr/share/gnome-shell/extensions/forge@jmmaranan.com"
 
 cd ../..
 yes | rm -rfv forge
+echo "Done!"
