@@ -5,7 +5,6 @@ ublue_variants:
       - label: lazuli
         info: Lazuli image
 
-ublue_variants:
   - label: jerbmega/lazuli-vrr
     ks: /kickstart/ublue-os.ks
     flavors:
