@@ -1,4 +1,4 @@
-name: lazuli-vrr-nvidia
+name: lazuli-nvidia-vrr
 description: A blingy, opinionated GNOME with an i3 feel
 
 base-image: ghcr.io/ublue-os/silverblue-nvidia
