@@ -45,10 +45,10 @@ To me, taking a standard DE and augmenting it to my usual workflow feels like th
 * Standard terminal mapped to `Super+Shift+Enter`
 
 ### VRR support
-An image with variable refresh rate and fractional scaling support is available under `lazuli-vrr`.
+An image with variable refresh rate and fractional scaling support is available under `lazuli-vrr` & `lazuli-nvidia-vrr`.
 
 > **Warning**
-> The `lazuli-vrr` and `lazuli-vrr-nvidia` images use an unofficial fork of Mutter and other GNOME components *not supported* by GNOME upstream yet. Make sure bugs are reproduceable on vanilla Lazuli as well before submitting bug reports to GNOME!
+> The `lazuli-vrr` and `lazuli-nvidia-vrr` images use an unofficial fork of Mutter and other GNOME components *not supported* by GNOME upstream yet. Make sure bugs are reproduceable on vanilla Lazuli as well before submitting bug reports to GNOME!
 
 ### Niceties
 * All of the QoL features from upstream Universal Blue (Media codecs installed, OBS loopback and extra hardware-enablement kmods shipped out of the box)
