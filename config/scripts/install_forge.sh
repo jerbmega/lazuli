@@ -4,14 +4,9 @@ set -oue pipefail
 mkdir forge
 cd forge
 
-LOCATION=$(curl -s https://api.github.com/repos/forge-ext/forge/releases/latest \
-| grep "zipball_url" \
-| awk '{ print $2 }' \
-| sed 's/,$//'       \
-| sed 's/"//g' )     \
-; curl -L -o forge.zip $LOCATION
+curl -L -o forge.zip https://github.com/forge-ext/forge/archive/refs/tags/v44-75.zip
 unzip forge.zip
-cd $(ls -d */|head -n 1)
+cd forge-44-75
 
 mkdir -pv temp
 cp -v metadata.json temp
