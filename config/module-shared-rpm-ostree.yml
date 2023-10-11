@@ -2,16 +2,15 @@ type: rpm-ostree
 repos:
   - https://copr.fedorainfracloud.org/coprs/infiniteloop/HeadsetControl/repo/fedora-%OS_VERSION%/infiniteloop-HeadsetControl-fedora-%OS_VERSION%.repo
   - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-
+  - https://copr.fedorainfracloud.org/coprs/carlwgeorge/reviews/repo/fedora-%OS_VERSION%/carlwgeorge-reviews-fedora-%OS_VERSION%.repo
 install:
   - apcupsd
   - ckb-next
-  - gnome-shell-extension-pop-shell
   - gnome-shell-extension-gsconnect
   - gnome-shell-extension-blur-my-shell
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-just-perfection
-  - gnome-shell-extension-system-monitor-applet
+  - gnome-shell-extension-forge
   - python3-pip
   - tailscale
 
