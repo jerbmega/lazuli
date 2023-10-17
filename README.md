@@ -23,9 +23,9 @@ To me, taking a standard DE and augmenting it to my usual workflow feels like th
 
 ## Details
 ### Main changes
-* Forge, Blur My Shell, Just Perfection, GSConnect, and AppIndicator shell extensions installed out of the box
+* Forge, Blur My Shell, Just Perfection, GSConnect, AppIndicator and Space Bar shell extensions installed out of the box
 * Top bar moved to the bottom to emulate a default i3 or Sway setup
-* Ten static workspaces set up out of the box
+* Ten static workspaces set up out of the box, with Space Bar configured to hide empty workspaces
 * Forge configured to have key bindings similar to (but *not* identical to) i3/Sway
 * Active window set to whatever the mouse is hovered over like in i3/Sway
 * Distrobox configured as the default terminal experience on `Super+Enter`

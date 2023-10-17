@@ -1,8 +1,8 @@
 type: rpm-ostree
 repos:
-  - https://copr.fedorainfracloud.org/coprs/infiniteloop/HeadsetControl/repo/fedora-%OS_VERSION%/infiniteloop-HeadsetControl-fedora-%OS_VERSION%.repo
   - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
   - https://copr.fedorainfracloud.org/coprs/carlwgeorge/reviews/repo/fedora-%OS_VERSION%/carlwgeorge-reviews-fedora-%OS_VERSION%.repo
+  - https://copr.fedorainfracloud.org/coprs/jerbear64/lazuli-rpms/repo/fedora-39/jerbear64-lazuli-rpms-fedora-39.repo
 install:
   - apcupsd
   - ckb-next
@@ -11,6 +11,7 @@ install:
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-just-perfection
   - gnome-shell-extension-forge
+  - gnome-shell-extension-space-bar
   - python3-pip
   - tailscale
 
