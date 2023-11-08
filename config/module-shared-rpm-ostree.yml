@@ -13,6 +13,7 @@ install:
   - gnome-shell-extension-space-bar
   - python3-pip
   - tailscale
+  - xwaylandvideobridge
 
 remove:
   - firefox
