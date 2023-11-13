@@ -7,7 +7,7 @@
 
 ![](assets/bg.png)
 
-Lazuli is an OCI container image built off of [Universal Blue](https://universal-blue.org) that brings an opinionated, tiled set of defaults to the GNOME desktop environment. Its intent is to provide a middle ground between the keyboard-centric workflow of a tiling window manager, and the integration of a full-fledged desktop environment. By utilizing Forge and custom keybinds, the goal is to feel close to home for an i3 or Sway user without sacrificing on bling or features.
+Lazuli is an OCI container image built off of [Universal Blue](https://universal-blue.org) that brings an opinionated, tiled set of defaults to the GNOME desktop environment. Its intent is to provide a middle ground between the keyboard-centric workflow of a tiling window manager, and the integration of a full-fledged desktop environment. By utilizing Pop Shell and custom keybinds, the goal is to feel close to home for an i3 or Sway user without sacrificing on bling or features.
 
 ## Why?
 
@@ -23,10 +23,10 @@ To me, taking a standard DE and augmenting it to my usual workflow feels like th
 
 ## Details
 ### Main changes
-* Forge, Blur My Shell, Just Perfection, GSConnect, AppIndicator and Space Bar shell extensions installed out of the box
+* Pop Shell, Blur My Shell, Just Perfection, GSConnect, AppIndicator and Space Bar shell extensions installed out of the box
 * Top bar moved to the bottom to emulate a default i3 or Sway setup
 * Ten static workspaces set up out of the box, with Space Bar configured to hide empty workspaces
-* Forge configured to have key bindings similar to (but *not* identical to) i3/Sway
+* Pop Shell configured to have key bindings similar to (but *not* identical to) i3/Sway
 * Active window set to whatever the mouse is hovered over like in i3/Sway
 * Distrobox configured as the default terminal experience on `Super+Enter`
   - `distrobox-assemble` is configured to automatically build the contents of `$HOME/.config/ublue/boxkit.ini` on login. If not present, the default `/usr/share/ublue-os/boxkit.ini` will be used instead
