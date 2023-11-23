@@ -133,56 +133,27 @@ use-transparent-background=true
 
 [org/gnome/shell]
 disable-user-extensions=false
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'just-perfection-desktop@just-perfection', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'forge@jmmaranan.com', 'system-monitor@paradoxxx.zero.gmail.com', 'space-bar@luchrioh']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'just-perfection-desktop@just-perfection', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'pop-shell@system76.com', 'system-monitor@paradoxxx.zero.gmail.com', 'space-bar@luchrioh']
 
-[org/gnome/shell/extensions/forge]
-css-last-update=uint32 37
-focus-border-toggle=false
-preview-hint-enabled=true
-tabbed-tiling-mode-enabled=false
-tiling-mode-enabled=true
-window-gap-hidden-on-single=true
-
-[org/gnome/shell/extensions/forge/keybindings]
-con-split-horizontal=['<Super>h']
-con-split-layout-toggle=['<Super>g']
-con-split-vertical=['<Super>v']
-con-stacked-layout-toggle=['<Shift><Super>s']
-con-tabbed-layout-toggle=['<Shift><Super>t']
-con-tabbed-showtab-decoration-toggle=['<Control><Alt>y']
-focus-border-toggle=['<Super>x']
-prefs-tiling-toggle=['<Super>w']
-window-focus-down=['<Super>Down']
-window-focus-left=['<Super>Left']
-window-focus-right=['<Super>Right']
-window-focus-up=['<Super>Up']
-window-gap-size-decrease=['<Control><Super>minus']
-window-gap-size-increase=['<Control><Super>plus']
-window-move-down=['<Shift><Super>Down']
-window-move-left=['<Shift><Super>Left']
-window-move-right=['<Shift><Super>Right']
-window-move-up=['<Shift><Super>Up']
-window-resize-bottom-decrease=['<Control><Super>Up']
-window-resize-bottom-increase=['<Control><Super>Down']
-window-resize-left-decrease=@as []
-window-resize-left-increase=@as []
-window-resize-right-decrease=['<Control><Super>Left']
-window-resize-right-increase=['<Control><Super>Right']
-window-resize-top-decrease=@as []
-window-resize-top-increase=@as []
-window-snap-center=['<Control><Alt>c']
-window-snap-one-third-left=['<Control><Alt>d']
-window-snap-one-third-right=['<Control><Alt>g']
-window-snap-two-third-left=['<Control><Alt>e']
-window-snap-two-third-right=['<Control><Alt>t']
-window-swap-down=['<Control><Super>j']
-window-swap-last-active=@as []
-window-swap-left=['<Control><Super>h']
-window-swap-right=['<Control><Super>l']
-window-swap-up=['<Control><Super>k']
-window-toggle-always-float=['<Shift><Super>c']
-window-toggle-float=['<Shift><Super>space']
-workspace-active-tile-toggle=@as []
+[org/gnome/shell/extensions/pop-shell]
+active-hint=false
+gap-outer=uint32 0
+pop-monitor-left=@as []
+pop-monitor-right=@as []
+pop-workspace-down=@as []
+pop-workspace-up=@as []
+smart-gaps=false
+tile-by-default=true
+tile-enter=['<Super>r']
+tile-move-down=@as []
+tile-move-down-global=['<Shift><Super>Down']
+tile-move-left=@as []
+tile-move-left-global=['<Shift><Super>Left']
+tile-move-right=@as []
+tile-move-right-global=['<Shift><Super>Right']
+tile-move-up=@as []
+tile-move-up-global=['<Shift><Super>Up']
+toggle-floating=['<Shift><Super>space']
 
 [org/gnome/shell/extensions/just-perfection]
 theme=true

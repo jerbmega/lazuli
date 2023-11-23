@@ -9,7 +9,7 @@ install:
   - gnome-shell-extension-blur-my-shell
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-just-perfection
-  - gnome-shell-extension-forge
+  - gnome-shell-extension-pop-shell
   - gnome-shell-extension-space-bar
   - python3-pip
   - tailscale
