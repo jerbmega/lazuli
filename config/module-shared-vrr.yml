@@ -1,3 +1,3 @@
-type: bling
-install:
-  - gnome-vrr
+type: script
+scripts:
+  - enable_vrr.sh
