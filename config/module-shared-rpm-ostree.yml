@@ -1,0 +1,18 @@
+type: rpm-ostree
+repos:
+  - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+  - https://copr.fedorainfracloud.org/coprs/jerbear64/lazuli-rpms/repo/fedora-39/jerbear64-lazuli-rpms-fedora-39.repo
+install:
+  - apcupsd
+  - gnome-shell-extension-gsconnect
+  - gnome-shell-extension-blur-my-shell
+  - gnome-shell-extension-appindicator
+  - gnome-shell-extension-just-perfection
+  - gnome-shell-extension-pop-shell
+  - gnome-shell-extension-space-bar
+  - python3-pip
+  - tailscale
+
+remove:
+  - firefox
+  - firefox-langpacks

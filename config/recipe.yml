@@ -1,0 +1,12 @@
+name: lazuli
+description: A blingy, opinionated GNOME with an i3 feel
+
+base-image: ghcr.io/ublue-os/silverblue-main
+image-version: 39
+modules:
+  - from-file: module-shared-rpm-ostree.yml
+  - from-file: module-shared-files.yml
+  - from-file: module-shared-bling.yml
+  - from-file: module-shared-yafti.yml
+  - from-file: module-shared-scripts.yml
+  - from-file: module-shared-signing.yml

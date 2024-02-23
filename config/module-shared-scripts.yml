@@ -1,0 +1,5 @@
+type: script
+scripts:
+  - delete_residuals.sh
+  - enable_services.sh
+  - remove_gnome_extensions_app.sh
