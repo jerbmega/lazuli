@@ -1,5 +1,3 @@
-!import /usr/share/ublue-os/just/100-bling.just
-
 assemble:
   #!/usr/bin/env bash
   echo 'Assembling distrobox...'
