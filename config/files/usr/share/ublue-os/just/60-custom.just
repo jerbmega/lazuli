@@ -1,6 +1,6 @@
 !import /usr/share/ublue-os/just/100-bling.just
 
-assemble:
+lazuli-assemble:
   #!/usr/bin/env bash
   echo 'Assembling distrobox...'
   notify-send 'Distrobox terminal is being assembled...'
