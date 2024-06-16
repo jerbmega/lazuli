@@ -1,3 +1,6 @@
+# ARCHIVED
+### Due to https://gitlab.freedesktop.org/drm/amd/-/issues/3142 I've switched to NixOS, where it's very easy to slipstream in a kernel patch. Feel free to fork and maintain this repo if you used it, BlueBuild and OCI-delivered Fedora is easy to customize and is still awesome.
+
 # Lazuli
 ## A blingy, opinionated GNOME with an i3 feel
 > **Warning**
